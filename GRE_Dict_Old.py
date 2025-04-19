@@ -202,13 +202,13 @@ my_adjectives = {
 
 import json
 s = json.dumps(my_nouns)
-with open("/Users//rvolosh//Documents//tools and old work//vocab quizzes//grepractice//my_words//my_nouns.txt","w") as f:
+with open("~//my_nouns.txt","w") as f:
 	f.write(s)
 
 s = json.dumps(my_verbs)
-with open("/Users//rvolosh//Documents//tools and old work//vocab quizzes//grepractice//my_words//my_verbs.txt","w") as f:
+with open("~//my_verbs.txt","w") as f:
 	f.write(s)
 	
 s = json.dumps(my_adjectives)
-with open("/Users//rvolosh//Documents//tools and old work//vocab quizzes//grepractice//my_words//my_adjectives.txt","w") as f:
+with open("~//my_adjectives.txt","w") as f:
 	f.write(s)

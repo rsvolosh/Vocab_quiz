@@ -26,7 +26,7 @@ reckon, so it did its job.
 Instructions:
 1. Download Python (if needed)
 2. Clone this repository
-3. Go into "GRE_Dict_Old", and, at the bottom of the file, change the locations to the path where you stored 
+3. Go into "GRE_Dict_Old", and, at the bottom of the file, change the tildas to the locations to the path where you stored 
 this repository
 3. Open Command window or Terminal, or whatever you work in
 4. Run GRE_Dict_Old
