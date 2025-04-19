@@ -1,0 +1,33 @@
+Vocabulary Practice Quiz Generator
+
+This is a tool to help you memorise the definitions of words. In a nutshell, 
+you add words and the definitions of those words you are trying to memorise 
+and then you take a multiple-choice quiz, where, if you pick the correct 
+answer, it will say "Correct!" and no longer ask you for the definition of that 
+word; and if you pick the incorrect answer, it will tell you you're wrong and 
+ask you to define that word again at some point in the quiz. The quiz ends only 
+if you correctly define all the words or if you stop the program.
+
+The idea behind making this quiz was to help you memorise words through spaced 
+repetition.
+
+To use it, you simply put the word you are trying to memorise, as well as its definition, into 
+the category it belongs (noun, verb, or adjective), like so:
+
+'word':'definition of word',
+
+Do not forget the comma (unless it is the last word in the section (followed by "}").
+
+I created it while preparing for my least favourite section of the Graduate 
+Record Examinations (GRE) and also trying to learn Python by using it, so it 
+may be a little clunky. But it did help raise my score by about ten points, I 
+reckon, so it did its job.
+
+Instructions:
+1. Download Python (if needed)
+2. Clone this repository
+3. Go into "GRE_Dict_Old", and, at the bottom of the file, change the locations to the path where you stored 
+this repository
+3. Open Command window or Terminal, or whatever you work in
+4. Run GRE_Dict_Old
+5. Run grequiz
